@@ -119,7 +119,7 @@
 
 .texte-sous-image-e-sport {
     text-align: center;
-    position: absolute; left : 18vw; top : 37vw;
+    position: absolute; left : 20vw; top : 37vw;
     font-size : 2.5vw;
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -132,7 +132,7 @@
 
 .texte-sous-image-impact-culturel {
     text-align: center;
-    position: absolute; left : 40.8vw; top : 37vw;
+    position: absolute; left : 41.2vw; top : 37vw;
     font-size : 2.5vw;
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -411,6 +411,7 @@
     position : absolute;
     z-index: 3;
 }
+
 
 
 
