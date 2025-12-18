@@ -341,7 +341,7 @@
     text-align: center;
     border-radius: 3vw;
     font-size: 1vw;
-    position : absolute;
+    position: absolute;
     z-index: 3;
 }
 
@@ -356,7 +356,7 @@
     text-align: center;
     border-radius: 3vw;
     font-size: 1vw;
-    position : absolute;
+    position: absolute;
     z-index: 3;
 }
 
@@ -371,7 +371,7 @@
     text-align: center;
     border-radius: 3vw;
     font-size: 1vw;
-    position : absolute;
+    position: absolute;
     z-index: 3;
 }
 
@@ -386,7 +386,11 @@
     text-align: center;
     border-radius: 3vw;
     font-size: 1vw;
-    position : absolute;
+    position: absolute;
     z-index: 3;
 
+}
+
+.facebook {
+    position: absolute; left : 1vw; top : 32vw;
 }
