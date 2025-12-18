@@ -103,7 +103,7 @@
     border-radius: 3vw; /*arrondissement du bouton (stroke)*/
     font-size: 1vw; /*augmente la taille du texte*/
     transition: transform 0.3s ease; /*transition qui permet d'extendre le cadre en 0.3s*/
-    position: absolute; right : 8vw; top : 1vw; /*position du bouton*/
+    position: absolute; right : 20vw; top : 1vw; /*position du bouton*/
 }
 
 .btnAccueil:hover {
@@ -207,3 +207,4 @@
     transform: scale(1.05);
     background-color: rgb(222, 165, 41);
 }
+
