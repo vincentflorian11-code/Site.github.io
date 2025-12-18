@@ -1,0 +1,36 @@
+.page-histoire {
+    margin: 0;
+    padding: 0;
+    /* Image de fond : remplace par le nom correct de ton fichier */
+    background-image: url("https://img.freepik.com/fotos-premium/2d-hero-battle-pvp-arena-background-casual-game-art-design-ai-generative-desenho-de-arte-de-jogo-casual_977463-128.jpg?w=2000"); 
+    background-size: cover;      /* L'image couvre tout l'écran [cite: 1216] */
+    background-repeat: no-repeat; /* Pas de répétition [cite: 1213] */
+    background-attachment: fixed; /* L'image reste fixe au scroll [cite: 1211] */
+    color: #ffffff;               /* Texte blanc pour la lisibilité [cite: 1118] */
+    font-family: Arial, sans-serif;
+}
+.hero-img {
+    width: 100%;       /* Prend toute la largeur [cite: 1026] */
+    max-height: 400px; /* Hauteur maximale pour l'effet bannière [cite: 1033] */
+    object-fit: cover; /* Recadre l'image proprement */
+    display: block;    /* Supprime l'espace vide sous l'image [cite: 984] */
+}
+.content-blue-box {
+    text-align: center;      /* Centre tout le texte [cite: 1119] */
+    /* On réduit le padding du haut pour remonter le titre [cite: 1052] */
+    padding: 20px 10% 60px 10%; 
+}
+
+.content-blue-box h1 {
+    font-size: 4rem;         /* Taille de police relative [cite: 1009] */
+    text-transform: uppercase;/* Tout en majuscules [cite: 1099] */
+    margin-top: 0;           /* On colle le titre en haut [cite: 1047] */
+}
+
+.content-blue-box p {
+    font-size: 1.2rem;       /* Texte plus gros [cite: 1097] */
+    text-align: justify;     /* Texte bien aligné [cite: 1119] */
+    line-height: 1.6;        /* Espacement pour la lisibilité */
+    max-width: 1000px;       /* Largeur max pour ne pas être trop long [cite: 1029] */
+    margin: 0 auto 20px auto;/* Centre le bloc de paragraphe [cite: 1061] */
+}
