@@ -393,4 +393,25 @@
 
 .facebook {
     position: absolute; left : 1vw; top : 32vw;
+    z-index: 4;
+}
+
+.instagram {
+    position: absolute; left : 4vw; top : 32vw;
+    z-index: 4;
+}
+
+.linkedin {
+    position: absolute; left : 1vw; top : 33vw;
+    z-index: 4;
+}
+
+.tiktok {
+    position: absolute; left : 4vw; top : 33vw;
+    z-index: 4;
+}
+
+.youtube {
+    position: absolute; left : 1,5vw; top : 34vw;
+    z-index: 4;
 }
