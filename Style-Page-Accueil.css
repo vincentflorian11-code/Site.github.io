@@ -94,7 +94,7 @@
 .texte-sous-image-histoires-des-jeux {
     text-align: center;
     font-size : 2.5vw;
-    position: absolute; right : 21vw; top : 37vw;
+    position: absolute; right : 15vw; top : 37vw;
     color: rgb(255, 255, 255);
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -119,7 +119,7 @@
 
 .texte-sous-image-e-sport {
     text-align: center;
-    position: absolute; left : 26.5vw; top : 37vw;
+    position: absolute; left : 15vw; top : 35vw;
     font-size : 2.5vw;
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -132,7 +132,7 @@
 
 .texte-sous-image-impact-culturel {
     text-align: center;
-    position: absolute; left : 3vw; top : 35vw;
+    position: absolute; left : 40.4vw; top : 35vw;
     font-size : 2.5vw;
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -411,5 +411,6 @@
     position : absolute;
     z-index: 3;
 }
+
 
 
