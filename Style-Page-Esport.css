@@ -1,0 +1,63 @@
+/* 1. DÉCLARATION DES VARIABLES (Cours p. 20) */
+:root {
+    --couleur-fond: #1a3a8a;    /* Bleu foncé par défaut [cite: 421] */
+    --couleur-texte: #ffffff;   /* Blanc par défaut [cite: 584] */
+}
+
+/* 2. MODE CLAIR [cite: 417] */
+.mode-clair {
+    --couleur-fond: #ffffff;    /* Fond devient blanc [cite: 584] */
+    --couleur-texte: #000000;   /* Texte devient noir [cite: 584] */
+}
+
+/* 3. APPLICATION UNIQUE DES VARIABLES */
+.page-esport {
+    background-color: var(--couleur-fond); /* Utilise la variable  */
+    color: var(--couleur-texte);           /* Utilise la variable  */
+    margin: 0; 
+    padding: 0;
+    transition: 0.3s; /* Pour que le changement soit fluide */
+}
+
+/* Applique aussi la variable au conteneur de la vidéo pour qu'il change de couleur */
+.video-container {
+    text-align: center; 
+    padding: 40px 10%; 
+    background-color: var(--couleur-fond); /* Utilise la variable ici aussi ! */
+}
+
+
+/* Style bloc de contenu  */
+.content-blue-box {
+    /* Le premier chiffre (20px) gère l'espace en haut et en bas. 
+       Réduis-le pour remonter le titre. */
+    padding: 20px 10% 50px 10%; 
+    text-align: center;
+}
+
+.content-blue-box h1 {
+    font-size: 4rem; /* Augmente ce chiffre pour agrandir encore plus  */
+    margin-top: 0;   /* Supprime la marge au-dessus du h1 pour le coller en haut */
+}
+
+/* Pour agrandir le texte d'introduction */
+.intro-text {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+/* Pour agrandir la description principale */
+.main-description {
+    font-size: 1.2rem; 
+    text-align: justify; /* Pour garder un bloc bien propre*/
+}
+
+.video-player, iframe {
+    width: 100%;             /* Largeur adaptative [cite: 1026] */
+    max-width: 800px;        /* Ne dépasse pas 800px [cite: 1029] */
+    height: 450px;           /* Hauteur fixe ou auto [cite: 1030] */
+    border: 3px solid #ffffff; /* Bordure blanche pour le style [cite: 1076] */
+    display: block;          /* Pour utiliser les marges auto [cite: 984] */
+    margin: 0 auto;          /* Centrage horizontal [cite: 1061] */
+}
