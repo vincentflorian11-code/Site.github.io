@@ -60,4 +60,132 @@
     border: 3px solid #ffffff; /* Bordure blanche pour le style [cite: 1076] */
     display: block;          /* Pour utiliser les marges auto [cite: 984] */
     margin: 0 auto;          /* Centrage horizontal [cite: 1061] */
+
+}
+
+.MenuAccueil {
+    color: rgb(254, 206, 102);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vw;
+    transition: transform 0.3s ease;
+    position: absolute; left : 1vw; top : 1vw;
+}
+
+.dropdown {
+    position: absolute; right : 0vw; top : 0vw; 
+    display: inline-block;
+}
+
+/* MENU CACHÉ1 */
+.dropdown-child {
+    display: none;
+    position: relative;
+    margin-top : 3.8vw;
+    padding: 0.4vw;
+    z-index: 2;
+}
+
+/* Liens du menu */
+.dropdown-child a {
+    padding: 0.45vw;
+    text-decoration: none;
+    display: block;
+}
+
+.btnAccueil {
+    border: 0.2vw solid rgb(201, 163, 81); /*bordure du cadre + taille + couleurs (stroke)*/
+    display: inline-block; /*reste en ligne*/
+    padding: 0.8vw 1.5vw; /*taille du bouton vertical, horizontale*/
+    background-color: rgb(254, 206, 102); /*couleur de l'arrière plan*/
+    color: white; /*couleur du texte*/
+    text-decoration: none; /*enlever les soulignements avec les liens par ex*/
+    border-radius: 3vw; /*arrondissement du bouton (stroke)*/
+    font-size: 1vw; /*augmente la taille du texte*/
+    transition: transform 0.3s ease; /*transition qui permet d'extendre le cadre en 0.3s*/
+    position: absolute; right : 25vw; top : 1vw; /*position du bouton*/
+}
+
+.btnAccueil:hover {
+    transform: scale(1.05); /*augmenter la taille de 1.05 du bouton*/
+    background-color: rgb(222, 165, 41); /*couleur du bouton qui change en ayant le curseur dessus*/
+}
+
+.btn3 {
+    border: 0.2vw solid rgb(201, 163, 81);
+    display: inline-block;
+    padding: 0.8vw 1.5vw;
+    background-color: rgb(254, 206, 102);
+    color: white;
+    text-decoration: none;
+    border-radius: 3vw;
+    font-size: 1vw;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    position: absolute; right : 0.5vw; top : 1vw;
+}
+
+.btn3:hover {
+    transform: scale(1.05);
+    background-color: rgb(222, 165, 41);
+}
+
+.btnHistoireShow {
+    border: 0.2vw solid rgb(201, 163, 81);
+    display: inline-block;
+    padding: 0.8vw 1.5vw;
+    background-image: url('https://segaretro.org/images/4/47/HeavyweightChamp_SMS_title.png');
+    background-size: cover;
+    background-position: center; 
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3vw;
+    font-size: 1vw;
+    position : absolute;
+    z-index: 3;
+}
+
+.btnEvolutionShow {
+    border: 0.2vw solid rgb(201, 163, 81);
+    display: inline-block;
+    padding: 0.8vw 1.5vw;
+    background-image: url('https://i.ytimg.com/vi/ruMaTvyXwm4/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center; 
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3vw;
+    font-size: 1vw;
+    position : absolute;
+    z-index: 3;
+}
+
+.btnEsportShow {
+    border: 0.2vw solid rgb(201, 163, 81);
+    display: inline-block;
+    padding: 0.8vw 1.5vw;
+    background-image: url('https://lesnews.ca/jovohiq/2025/11/18-evo-announcement-show-earlyt.webp.webp');
+    background-size: cover;
+    background-position: center; 
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3vw;
+    font-size: 1vw;
+    position : absolute;
+    z-index: 3;
+}
+
+.btnImpactShow {
+    border: 0.2vw solid rgb(201, 163, 81);
+    display: inline-block;
+    padding: 0.8vw 1.5vw;
+    background-image: url('https://www.rabbits-games.fr/wp-content/uploads/2023/06/salle-arcade-retrogaming-froissy.jpg');
+    background-size: cover;
+    background-position: center; 
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3vw;
+    font-size: 1vw;
+    position : absolute;
+    z-index: 3;
 }
