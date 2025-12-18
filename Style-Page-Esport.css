@@ -70,6 +70,7 @@
     font-size: 3vw;
     transition: transform 0.3s ease;
     position: absolute; left : 1vw; top : 1vw;
+    z-index: 2;
 }
 
 .dropdown {
@@ -104,6 +105,7 @@
     font-size: 1vw; /*augmente la taille du texte*/
     transition: transform 0.3s ease; /*transition qui permet d'extendre le cadre en 0.3s*/
     position: absolute; right : 17vw; top : 1vw; /*position du bouton*/
+    z-index: 2;
 }
 
 .btnAccueil:hover {
@@ -123,6 +125,7 @@
     transition: transform 0.3s ease;
     cursor: pointer;
     position: absolute; right : 0.5vw; top : 1vw;
+    z-index: 2;
 }
 
 .btn3:hover {
@@ -201,6 +204,7 @@
     font-size: 1vw;
     transition: transform 0.3s ease;
     position: absolute; right : 9.4vw; top : 1vw;
+    z-index: 2;
 }
 
 .btn2:hover {
@@ -213,6 +217,7 @@
     position: absolute; top : 6vw;
     z-index: 1;
 }
+
 
 
 
