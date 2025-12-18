@@ -290,5 +290,9 @@
 }
 
 .menu-li {
-  list-style: none;
+    list-style: none;
+}
+
+.esport-image {
+    width: 100%;
 }
