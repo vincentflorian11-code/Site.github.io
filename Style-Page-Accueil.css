@@ -69,7 +69,7 @@
     width: 16.5vw;
     height: 16.5vw;
     object-fit: cover;
-    position: absolute; left : 1.5vw; top : 18vw;
+    position: absolute; left : 40.4vw; top : 20vw;
     cursor: pointer;
     transition: transform 0.3s ease;
   }
@@ -411,3 +411,4 @@
     position : absolute;
     z-index: 3;
 }
+
