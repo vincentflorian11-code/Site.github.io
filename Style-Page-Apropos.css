@@ -268,7 +268,7 @@
 
 .texte-menu-sélection {
     text-align: center; /*aligner le contenu au centre*/
-    font-size : 3vw; /* taille du texte*/
+    font-size : 2vw; /* taille du texte*/
     color: rgb(255, 255, 255); /*couleur du texte*/
     position: absolute; top: 10vw; left: 10vw /*position du menu*/
     max-width: 60vw;
@@ -277,5 +277,6 @@
 .txt {
     color: rgb(255, 255, 255); /*couleur du texte*/
     font-size : 2vw; /* taille du texte*/
-    position: absolute; top : 15vw; /*position du texte*/
+    position: absolute; top : 10vw; /*position du texte*/
 }
+
